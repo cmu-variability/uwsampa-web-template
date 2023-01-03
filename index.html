@@ -5,32 +5,48 @@ notitle: true
 
 # groups of columns of {roles: list, width: num, image: bool}
 role-tables:
-- - roles: [faculty, postdoc, staff]
-    width: 4
+- - roles: [faculty]
+    width: 3
     image: true
-  - roles: [grad]
-    width: 8
+  - roles: [grad-phd]
+    width: 3
     image: true
-- - roles: [collab, ugrad, ugrad-alum]
-    width: 5
-    image: false
-  - roles: [alum]
-    width: 7
-    image: false
+  - roles: [grad-masters]
+    width: 3
+    image: true
+  - roles: [ugrad]
+    width: 3
+    image: true
 
 ---
 
+<div>
+  <img class="banner" src="/img/banner.png"/>
+</div>
+
 <div class="jumbotron">
-    <p>
-        The <b>Awesome Research Group</b> at <b>Example U</b> does all sorts of
-        research. Here is a place where we tell you exactly what that is!
-    </p>
+  
+  <p> Welcome to the <b>VariAbility Lab</b> at <b>Carnegie Mellon University</b>. Our research mission is to create inclusive workplaces
+  where all people can be successful, without discrimination, especially those with disabilities and the neurodivergent.
+  </p>
+  <p>
+  Our current
+  research projects focus on creating accommodative physical work environments, collaboration tools that facilitate communication between
+  people with differing abilities, and educational programs that teach communication skills and improve social relationships between team
+  members.
+  </p>
+
+  <p>
+     We are recruiting students (PhD, Masters, and Undergraduates) for Spring 2023. If you are interested in working on any of our projects,
+  please <a href="https://andrewbegel.com/" target="_blank">get in touch!</a> Include your CV and a brief description of some research you'd like to do.
+  </p>
+  
 </div>
 
 <section>
     <h2>News</h2>
-    <ul class="news list-unstyled">
-        {% for post in site.posts limit: site.front_page_news %}
+<ul class="news list-unstyled">
+      {% for post in site.posts limit: site.front_page_news %}
             {% include news-item.html item=post %}
         {% endfor %}
     </ul>

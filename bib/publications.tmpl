@@ -14,14 +14,20 @@
 		</td>
 		<td class="publication">
 			<span class="pubtitle">
-				{%- set url = entry|main_url %}
-				{%- if url %}
-				<img src="img/pdficon_small.png" width="16"
-					height="16" alt="PDF" />
-				<a href="{{ url|escape }}">{{ entry|title }}</a>.
-				{%- else %}
-				{{ entry|title }}.
+				{%- if entry.fields['url'] %}
+				<a href="{{ entry.fields['url']|escape }}" target="_blank">
+				<img src="/img/pdf-icon-small.png" width=16 height=16/></a>
 				{%- endif %}
+				{%- if entry.fields['doi_url'] %}
+				<a href="{{ entry.fields['doi_url']|escape }}" target="_blank">
+				<img src="/img/doi-icon-small.png" width=16 height=16/></a>
+				{%- endif %}
+				{{ entry|title }}.
+ 				{%- if entry.fields['web_url'] %}
+				<a href="{{ entry.fields['web_url']|escape }}" target="_blank">
+				<img src="/img/web-icon-small.png" width=16 height=16/></a>
+				{%- endif %}				
+
 			</span><br />
 			<span class="authors">
 				{{ entry.persons['author']|author_list }}.

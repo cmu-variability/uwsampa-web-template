@@ -1,5 +1,5 @@
-name: Awesome Research Group
-url: http://awesome.example.edu
+name: CMU VariAbility Lab
+url: http://cmu-variability.github.io
 
 exclude: [bibble, README.md, Makefile, screenshot.png]
 
@@ -13,12 +13,10 @@ permalink: /blog/:year/:month/:day/:title.html
 roles:
   - key: faculty
     name: Faculty
-  - key: staff
-    name: Staff
-  - key: postdoc
-    name: Researchers
-  - key: grad
-    name: Graduate Students
+  - key: grad-phd
+    name: PhD Students
+  - key: grad-masters
+    name: Masters Students
   - key: ugrad
     name: Undergraduate Students
   - key: ugrad-alum
@@ -49,5 +47,7 @@ navigation:
     link: /research.html
   - title: Publications
     link: /publications.html
-  - title: Code
-    link: /code.html
+
+
+#- title: Code
+#    link: /code.html

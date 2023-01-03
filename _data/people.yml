@@ -1,161 +1,129 @@
-
-prof-a:
-    display_name: "Prof A"
+prof-begel:
+    display_name: "Andrew Begel"
+    webpage: "https://andrewbegel.com"
+    github: abegel
+    image: /img/people/abegel.png
     role: faculty
-
-prof-b:
-    display_name: "Prof B"
-    role: faculty
-
-prof-c:
-    display_name: "Prof C"
-    role: faculty
-
-profx:
-    display_name: "Professor X"
-    webpage: "http://en.wikipedia.org/wiki/Professor_X"
-    github: profx
-    role: faculty
-    image: /img/people/prof-x.png
     bio: Professor
 
-scott:
-    display_name: "Scott Summers"
-    webpage: "http://en.wikipedia.org/wiki/Cyclops_(comics)"
-    role: staff
-    image: /img/people/scott.png
-    bio: aka Cyclops
+grad-gabrielle-ohlson:
+    display_name: "Gabrielle Ohlson"
+    webpage: "https://edgygrandma.com/"
+    role: grad-phd
 
-wolverine:
-    display_name: "Wolverine"
-    webpage: "http://en.wikipedia.org/wiki/Wolverine_%28comics%29"
-    github: wolverine
-    role: postdoc
+grad-jiwoong-jang:
+    display_name: "JiWoong (Joon) Jang"
+    webpage: "https://joonbugs.github.io"
+    role: grad-phd
 
-storm:
-    display_name: "Storm"
-    webpage: "http://en.wikipedia.org/wiki/Storm_%28Marvel_Comics%29"
-    role: grad
-    image: /img/people/storm.png
+grad-wenxin-ju:
+    display_name: "Wenxin (Wendy) Ju"
+    role: grad-masters
 
-grad-a:
-    display_name: "Grad A"
-    role: grad
 
-grad-b:
-    display_name: "Graduate Student B With Long Name"
-    role: grad
+grad-rosanna-vitiello:
+    display_name: "Rosanna Vitiello"
+    role: grad-masters
 
-grad-c:
-    display_name: "Grad C"
-    role: grad
+grad-alana-rogers:
+    display_name: "Alana Rogers"
+    role: grad-masters
 
-grad-d:
-    display_name: "Grad D"
-    role: grad
+grad-manvi-gupta:
+    display_name: "Manvi Gupta"
+    role: grad-masters
 
-grad-e:
-    display_name: "Grad E"
-    role: grad
+grad-alicia-ng:
+    display_name: "Alicia Ng"
+    role: grad-masters
 
-grad-f:
-    display_name: "Grad F"
-    role: grad
+grad-eunbea-ji:
+    display_name: "Eunbea (Rosie) Ji"
+    role: grad-masters
 
-grad-g:
-    display_name: "Grad G"
-    role: grad
 
-grad-h:
-    display_name: "Grad H"
-    role: grad
 
-grad-i:
-    display_name: "Grad I"
-    role: grad
-
-alum-a:
-    display_name: "Alum A"
-    role: alum
-    bio: "Ph.D., 2013. Now at Microsoft Research."
-
-alum-b:
-    display_name: "Alum B With Way Longer Name"
-    role: alum
-
-alum-c:
-    display_name: "Alum C"
-    role: alum
-    webpage: "https://www.google.com"
-
-alum-d:
-    display_name: "Alum D"
-    role: alum
-
-alum-e:
-    display_name: "Alum E"
-    role: alum
-
-alum-f:
-    display_name: "Alum F"
-    role: alum
-
-alum-g:
-    display_name: "Alum G"
-    role: alum
-
-alum-h:
-    display_name: "Alum H"
-    role: alum
-
-alum-i:
-    display_name: "Alum I"
-    role: alum
-
-collab-a:
-    display_name: "Collaborator A"
-    role: collab
-
-collab-b:
-    display_name: "Collaborator B With Long Name"
-    role: collab
-
-collab-c:
-    display_name: "Collaborator C"
-    role: collab
-
-collab-d:
-    display_name: "Collaborator D"
-    role: collab
-
-collab-e:
-    display_name: "Collaborator E"
-    role: collab
-
-ugrad-a:
-    display_name: "Ugrad A"
+ugrad-justin-zou:
+    display_name: "Justin Zou"
     role: ugrad
 
-ugrad-b:
-    display_name: "Ugrad Student B With Long Name"
+ugrad-meixuan-li:
+    display_name: "Mexiuan (Lucy) Li"
     role: ugrad
 
-ugrad-c:
-    display_name: "Ugrad C"
+ugrad-raymond-welgosh:
+    display_name: "Raymond Welgosh"
     role: ugrad
 
-ugrad-d:
-    display_name: "Ugrad D"
+ugrad-emily-amspoker:
+    display_name: "Emily Amspoker"
     role: ugrad
 
-ugrad-e:
-    display_name: "Ugrad E"
+ugrad-justin-hsieh:
+    display_name: "Justin Hsieh"
     role: ugrad
 
-ugrad-alum-a:
-    display_name: "Past Ugrad A"
-    role: ugrad-alum
+ugrad-an-tang:
+    display_name: "An Tang"
+    role: ugrad
 
-ugrad-alum-b:
-    display_name: "Past Ugrad Student B With Long Name"
-    role: ugrad-alum
+ugrad-ireoluwa-alarape:
+    display_name: "Ireoluwa Alarape"
+    role: ugrad
+
+ugrad-zhiheng-ye:
+    display_name: "Zhiheng (Andy) Ye"
+    role: ugrad
+
+ugrad-dhruva-reddy:
+    display_name: "Dhruva Reddy"
+    role: ugrad
+
+ugrad-mahith-edula:
+    display_name: "Mahith Edula"
+    role: ugrad
+
+ugrad-adam-bournes:
+    display_name: "Adam Bournes"
+    role: ugrad
+
+ugrad-sidney-ozcan:
+    display_name: "Sidney Ozcan"
+    role: ugrad
+
+ugrad-aditya-ganesh:
+    display_name: "Aditya (Adit) Ganesh"
+    role: ugrad
+
+ugrad-zimeng-wang:
+    display_name: "Zimeng (Ayla) Wang"
+    role: ugrad
+
+ugrad-gabriel-aguirre:
+    display_name: "Gabriel Aguirre"
+    role: ugrad
+
+ugrad-kajal-mehta:
+    display_name: "Kajal Mehta"
+    role: ugrad
+
+ugrad-yiqun-zhang:
+    display_name: "Yiqun (Melody) Zhang"
+    role: ugrad
+
+ugrad-erica-fu:
+    display_name: "Erica Fu"
+    role: ugrad
+
+ugrad-baramee-bhakdibhumi:
+    display_name: "Baramee (Bing) Bhakdibhumi"
+    role: ugrad
+
+ugrad-veronica-pimenova:
+    display_name: "Veronica Pimenova"
+    role: ugrad
+
+
+ugrad-meghana-tera:
+    display_name: "Meghana Tera"
+    role: ugrad

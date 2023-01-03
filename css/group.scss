@@ -43,6 +43,10 @@ a > .fa {
 /*     } */
 /* } */
 
+.banner {
+    width: 100%;
+}
+
 /* Jumbotron */
 .jumbotron {
     text-align: justify;
@@ -53,7 +57,7 @@ a > .fa {
 
 /* Group logo */
 #logo {
-    width: 154px;
+    width: 131px;
     height: 35px;
     margin: 2px 0 8px 0;
 }
@@ -144,4 +148,8 @@ section {
 svg {
     // make the alignment just like img from bootstrap's reboot.scss
     vertical-align: middle;
+}
+
+.pubtitle {
+    font-weight: bold;
 }
